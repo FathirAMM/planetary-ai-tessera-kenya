@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# TESSERA embeddings cache (symlink to a 54 GB shared cache)
+global_0.1_degree_representation
+
+# Derived results notebooks can rebuild (e.g. K02 water maps)
+outputs/
+
+/documentation
+

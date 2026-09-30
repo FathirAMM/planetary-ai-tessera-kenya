@@ -1,0 +1,11 @@
+geopandas # Geospatial data manipulation and analysis
+geotessera==0.9.0 # Tessera python library (needs Python >= 3.12)
+matplotlib # Data visualization
+numpy # Numerical computing
+pandas # Data manipulation and analysis
+rasterio # Reading, writing, and processing raster data
+shapely # Geometric objects and spatial operations
+ipykernel # Jupyter notebooks utilities
+jupyter # Jupyter notebooks utilities
+nbclient # Jupyter notebooks utilities
+nbconvert # Jupyter notebooks utilities
