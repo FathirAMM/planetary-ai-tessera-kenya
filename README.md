@@ -66,3 +66,18 @@ Each script is run once; its outputs are kept in `data/`.
 .venv/bin/python data/fetch_osm.py          # OpenStreetMap answer keys for K04 and K05
 .venv/bin/python data/fetch_worldcover.py   # ESA WorldCover 2021 labels for K06
 ```
+
+## License
+
+The code and notebooks in this repository are released under the [MIT License](LICENSE).
+
+Third-party data in `data/` keeps its original license:
+
+| Data | Source | License |
+|---|---|---|
+| `ne_10m_*.geojson` | [Natural Earth](https://www.naturalearthdata.com/) | Public domain |
+| `osm_*.geojson` | © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors | [ODbL 1.0](https://opendatacommons.org/licenses/odbl/) |
+| `worldcover_2021/` | [ESA WorldCover 2021](https://esa-worldcover.org/) (contains modified Copernicus Sentinel data (2021) processed by the ESA WorldCover consortium) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| `kenya_tiles.csv` | Built from the TESSERA tile registry | TESSERA embeddings are [CC0](https://github.com/ucam-eo/geotessera) |
+
+The TESSERA embeddings themselves are downloaded on demand by `geotessera` and are not stored in this repository.
